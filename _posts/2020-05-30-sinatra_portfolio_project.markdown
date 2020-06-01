@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Portfolio Project"
-date:       2020-05-30 21:51:38 +0000
+date:       2020-05-30 17:51:39 -0400
 permalink:  sinatra_portfolio_project
 ---
 
@@ -18,8 +18,8 @@ The SuperheroController class created routes for the website, displaying specifi
 
 The UserController class created routes with 'get' and 'post' the get actions got information on the user and the post action created new users when a new user was signing up to use the website.
 
-The Models I created for this app were User and Superhero models. The user model has_many superheroes and also contains the method 'has_secure_password', this allowed for the Bcrypt gem to come into use so that a users password can be kept a secret, even if two users have the same password as one another. The Superhero model belonged_to the user and I also created a method 'valid_params?' that was meant to be used to ensure that the Superhero params were not empty.
+The Models I created for this app were User and Superhero models. The user model has_many superheroes and also contains the method 'has_secure_password', this allowed for the Bcrypt gem to come into use so that a users password can be kept a secret, even if two users have the same password as one another. The Superhero model belong_to the user class.
 
-The views I created were meant to display all of this information. there is an index.erb that is meant to welcome the user apon arrival to the website, and a layout.erb which contains the main layout of the website while using it. there are also superhero and user views. The superhero views contained a edit.erb which displayed a webpage where a user can edit their already created superhero, a show.erb that shows their newly created hero, and new.erb which displays a page that allows a user to create a brand new superhero, and a index.erb which displays all of a users created superheroes. The users views contained a new.erb, which displayed a sign up page where a user can create a new account, a show.erb which shows a user their superheroes, and a login.erb which displayed a login page where a user could log into an account that belonged to them!
+The views I created were meant to display all of this information. there is an index.erb that is meant to welcome the user apon arrival to the website, and a layout.erb which contains the main layout of the website while using it. there are also superhero and user views. The superhero views contained a edit.erb which displayed a webpage where a user can edit their already created superhero, a show.erb that shows their newly created hero, and new.erb which displays a page that allows a user to create a brand new superhero, and a index.erb which displays all of a users created superheroes. The users views contained a new.erb, which displayed a sign up page where a user can create a new account and a login.erb which displayed a login page where a user could log into an account that belonged to them!
 
 This basically summarizes the information that I put into this web application. My goal for this project was to better undertsand how to create a website and how to manpulate user information. I believe that I achieved this goal and now have a great understanding for how a website like twitter and instagram is created!
