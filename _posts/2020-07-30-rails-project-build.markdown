@@ -34,8 +34,8 @@ The views are basically just hmtl pages that show information that has been pass
 
 All together, by the end of this project I was satisfied, both with the feeling of completion and accmplishment. I learned a ton throughout creating this project and was very excited to implement my knowledge in my own way. It was a difficult hill to climb, but once I reached the top I was glad I took the journey. 
 
-* Github Repo: https://github.com/eliwines19/task-manager
-* Video Demo: https://drive.google.com/file/d/1B5bYWH4_WcH3tr04FElT98G4Ncm6WDY-/view?usp=sharing
+* Github Repo: *https://github.com/eliwines19/task-manager*
+* Video Demo: *https://drive.google.com/file/d/1B5bYWH4WcH3tr04FElT98G4Ncm6WDY-/view?usp=sharing*
 
 Thanks for reading!
 
