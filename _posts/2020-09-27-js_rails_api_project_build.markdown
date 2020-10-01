@@ -95,5 +95,5 @@ I created a method such as the one above so I am able to create exercises as wel
 
 Many more details and functions went into creating my application, check out my Github Repo link below to see the full code. You can view my video demo with the link below as well. Enjoy!
 
-* Github Repo: https://github.com/eliwines19/workout-planner
-* Video Demo: https://drive.google.com/file/d/1XYu1g8J8jzIiMgEjnFZDQjhYuuZA-BEI/view
+* Github Repo: *https://github.com/eliwines19/workout-planner*
+* Video Demo: *https://drive.google.com/file/d/1XYu1g8J8jzIiMgEjnFZDQjhYuuZA-BEI/view*
