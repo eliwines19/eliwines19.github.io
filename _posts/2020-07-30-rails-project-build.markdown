@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails-Project-Build "
-date:       2020-07-30 18:56:54 +0000
+date:       2020-07-30 14:56:55 -0400
 permalink:  rails-project-build
 ---
 
@@ -33,6 +33,9 @@ Along with controllers comes routing. The routing system is used to create the u
 The views are basically just hmtl pages that show information that has been passed from the models and controllers. The views just reference the info from the models and show the user the info. Views also have forms, which is what a user would fill out when signing up for the website, or editing a project they have created, or typing out a new task. The forms take the information that was filled out and stores it into the databse for later reference (aka logging back into the site or editing a task that you created 3 days ago). Forms are also where partials come into play. For example, on my "/projects/new" page, I will be shown a form in which I will fill out information for a new project. I Fill out the information then realize I have typed in the wrong due date for this project, welp I'll just go to the edit page and BOOM problem solved. Now, what will be the difference between the form the user will be prompted with when making a new project and the form they'll be prompted with when editing that project....? Trick question there is no difference! So why not just create a file with the code needed to create a form and then reference that file in both the "new" and "edit" page for the project! Partials make this possible, you can create a form file and reference that file whenever need be. You can do this same with displaying info about the project. You can just create a partial that displays info about the project and reference it on multiple pages such as the index and show pages. Validatio errors can also be shown with partials. You can create a errors file in the layouts folder. This file can reference any validation errors that pop up while creating a new project, task, or user. You can reference this partial so that when an error pops up, the view page will show those errors. 
 
 All together, by the end of this project I was satisfied, both with the feeling of completion and accmplishment. I learned a ton throughout creating this project and was very excited to implement my knowledge in my own way. It was a difficult hill to climb, but once I reached the top I was glad I took the journey. 
+
+Github Repo: https://github.com/eliwines19/task-manager
+Video Demo: https://drive.google.com/file/d/1B5bYWH4_WcH3tr04FElT98G4Ncm6WDY-/view?usp=sharing
 
 Thanks for reading!
 
