@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting up a React Frontend w/ Rails API Backend on Github"
-date:       2020-12-11 20:05:44 +0000
+date:       2020-12-11 15:05:44 -0500
 permalink:  setting_up_a_react_frontend_w_rails_api_backend_on_github
 ---
 
